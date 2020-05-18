@@ -3,6 +3,8 @@ import axios from 'axios'
 import './App.css'
 
 const App = () => {
+  const [post, setPost] = useState([])
+
   return (
     <div className='App'>
       <h1>Clean</h1>
