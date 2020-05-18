@@ -5,6 +5,7 @@ import './App.css'
 const App = () => {
   const [post, setPost] = useState([])
   const [loading, setLoading] = useState(false)
+  const [currentPage, setCurrentPage] = useState(1)
 
   return (
     <div className='App'>
