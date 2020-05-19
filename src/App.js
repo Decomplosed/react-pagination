@@ -12,7 +12,7 @@ const App = () => {
     const fetchPosts = async () => {
       setLoading(true)
       const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
-      setPostsPerPage(res.data)
+      setPosts(res.data)
       setLoading(false)
     }
 
