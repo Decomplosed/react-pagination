@@ -29,6 +29,7 @@ const App = () => {
     <div className='container mt-5'>
       <h1 className='text-primary mb-3'>My Blog</h1>
       <Posts posts={currentPosts} loading={loading} />
+      <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} />
     </div>
   )
 }
