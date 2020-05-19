@@ -3,7 +3,7 @@ import axios from 'axios'
 import './App.css'
 
 const App = () => {
-  const [post, setPost] = useState([])
+  const [posts, setPosts] = useState([])
   const [loading, setLoading] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
   const [postsPerPage, setPostsPerPage] = useState(10)
