@@ -15,6 +15,8 @@ const App = () => {
       setPostsPerPage(res.data)
       setLoading(false)
     }
+
+    fetchPosts()
   }, [])
 
   return (
